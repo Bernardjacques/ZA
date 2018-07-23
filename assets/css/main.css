@@ -1,0 +1,108 @@
+body
+{
+    background-image: url("../img/background3.jpg");
+    background-repeat: no-repeat, repeat;
+    color: black;
+}
+
+section
+{
+    background-color: rgba(255, 255, 255, 0.289);
+}
+
+h1
+{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+h2
+{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+h3
+{
+    text-align: center;
+    font-weight: 600;
+}
+
+
+p
+{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+
+.creat
+{
+    margin-left: 25px;
+    margin-right: 25px;
+    border: 1px solid black;
+}
+
+.container
+{
+    display: flex;
+}
+
+.stats
+{
+    width: 30%;
+    border: 1px solid black;
+}
+
+.skills
+{
+    width: 70%;
+    border: 1px solid black;
+}
+
+ul
+{
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+li
+{
+    margin-left: 10px;
+}
+
+.listStyle
+{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+
+.style
+{
+    margin-left:2px;
+    float:left; /*pour IE*/
+    margin-right: 15px;
+
+}
+
+ul li a 
+{
+    display:block;
+    float:left;   
+    width:100px;
+    background-color:#6495ED;
+    color:black;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    border:2px solid;
+    /*pour avoir un effet "outset" avec IE :*/
+    border-color:#DCDCDC #696969 #696969 #DCDCDC;
+}
